@@ -11,5 +11,9 @@ package com.tecsup.spring;
 public class Aplicacion {
     public static void main(String[] args) {
         System.out.println("tecsup");
+        Aplicacion.mensaje();        
+    }
+    public static void mensaje(){
+        System.out.println("Segundo cambio proyecto");
     }
 }
